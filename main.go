@@ -1,3 +1,5 @@
+// Contains a io.Writer that is backed by a []byte.
+// It's the bytes.Writer that's missing in the Go standard library.
 package byteswriter
 
 import (
